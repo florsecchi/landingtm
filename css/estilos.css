@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+*{
+	margin:0 auto;
+	padding: auto;
+
+}
+
+body{
+	background: #18435A;
+	position:relative;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	font-family: 'Comfortaa', verdana;
+	font-size:18px;
+	padding: 20px;
+	
+ }
+
+nav{
+	display: flex;
+	justify-content: center;
+	background:#E8E9F3;
+
+
+}
+
+.slide img{
+
+	height: 100%;
+	width: 100%;
+
+
+}
+
+.serv{
+
+	display:flex;
+	justify-content: space-around;
+	padding-top: 30px; 
+	 
+
+}
+
+.servicios{
+
+	width: 25%;
+	padding: 20px;
+	text-align: center;
+}
+
+.servicios img{
+
+ 	width: 150px;
+ 	height: 150px;
+ 	border-radius: 50%; 
+ }
+.servicios h2{
+
+	font-family: 'Comfortaa', verdana;
+	font-size:20px;
+	color: #E8E9F3;
+
+}
+
+.servicios p{
+
+	font-family: verdana;
+	color:#ffffff;
+	font-size: 12px;
+}
+
+#grande{
+
+	display: none;
+	z-index:100;
+	position: absolute;
+	top:35%;
+	bottom: 5%;
+	left: 30%;
+	width:400px; 
+	height:400px;
+	background: #ffffff;
+
+}
+
+#grande img{
+
+	width:400px; 
+	height:400px;
+}
+
+#grande input{
+	margin-left: 366px;
+	align-content: center;
+}
+
+#productos{
+
+	display:flex;
+	justify-content: space-around;
+	padding: 30px;
+	background: #ffffff;
+}
+
+.prodven{
+	align-content: center;
+	text-align: center;
+	width:25%;
+	height: 50%;
+	background:#ffffff;
+	font-family: 'Comfortaa', verdana;
+
+
+}
+
+.prodven img{
+	width:150px;
+	height: 100px;
+
+
+}
+
+.prodven h3{
+
+	font-size: 20px;
+}
+
+.prodven p{
+
+	font-size: 12px;
+
+}
+
+.formulario{
+
+	
+	color:#E8E9F3;
+	padding: 25px;
+}
+
+footer{
+
+	background: #E8E9F3;
+	height: 10%;
+	padding: 10px;
+	padding-left: 50%;
+
+}
+

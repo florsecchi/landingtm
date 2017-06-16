@@ -1,0 +1,172 @@
+<DOCTYPE html>
+<html>
+	
+	
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>Taller Mecánico</title>
+</head>
+<body>
+
+<header>
+	<div> <!--Logo-->
+
+	</div>
+
+	<nav>
+		<a href="#serv" class="menu">Servicios </a>
+		<a href="#productos" class="menu">Productos</a>
+		<a href="#turno" class="menu">Solicite turno</a>
+		<a href="#ubicacion" class="menu">Ubicación</a>
+
+	</nav>
+
+
+</header>
+
+
+<section class="slide" id="slide"> 
+
+<img src="./img/img-slide.jpg">
+<!-- slide<img src="./img/img-slide2.jpg"> -->
+	
+</section> <!-- Fin slide-->
+
+<section class="serv" id="serv"> <!-- servicios-->
+
+
+	<div class="servicios" id="1">
+		<a href="#" data-img="/img1.jpg" class="img_peque"><img src="img/img1.jpg"></a>
+		<h2>Experiencia</h2>
+		<p> Más de 60 años abalan nuestra experiencia y compromiso de brindar el mejor servicio a nuestros clientes. Constantemente estamos actualizándonos y capacitando a nuestro personal en las nuevas tecnologías.</p>
+		<p></p>
+		
+	</div>
+
+	<div class="servicios" id="2" >
+		<a href="#" data-img="/img2.jpg" class="img_peque"><img src="img/img2.jpg"></a>
+		<h2> Mecánica Integral</h2>
+		<p>Brindamos servicios desde cerrajería hasta el armado y reparación de motores, servicios de inyección electrónica y reparación de tren delantero para todo tipo de vehículos.</p>
+		
+	</div>
+
+	<div class="servicios" id="3">
+		<a href="#" data-img="/img3.jpg" class="img_peque"><img src="img/img3.jpg"></a>
+		<h2> Accesorios</h2>
+		<p>Trabajamos una línea de productos “Profesionales”, la más completa que puede usar el público en general, con ella se obtiene la mejor terminación, y con el agregado de los ambientadores, se garantizan vehículos para ser disfrutados.</p>
+		
+	</div>
+	
+</section> <!-- fin servicios-->
+
+
+<section  id="productos"> <!-- Inicio productos-->
+	<div class="prodven">
+  	 <img src="./img/oil.jpg" alt="Aceite" id="oil" data-img="/images.jpg" data-volver="/oil.jpg">
+        <h3>Aceites</h3>
+        <p>Aceite lubricante multigrado, especial para motores de 4 tiempos.</p>
+        <input type="button" data-id="1" value="Ver más" class="btn btn-default">
+     </div>
+
+
+	<div class="prodven">
+  	 <img src="./img/liqfren.jpg" alt="Liquido para frenos">
+        <h3>Liquido para Frenos</h3>
+        <p>Desarrollado para responder con eficacia las más exigentes condiciones de frenado.</p>
+        <input type="button" data-id="2" value="Ver más" class="btn btn-default">
+     </div>
+
+    <div class="prodven">
+  	 <img src="./img/1.png" alt="Fluido para dirección hidráulica">
+        <h3>Especiales</h3>
+        <p>Lubricante semisintético desarrollado para direcciones hidráulicas.</p>
+        <input type="button" data-id="3" value="Ver más" class="btn btn-default">
+    </div>
+</section> <!--  Fin productos-->
+
+<section id="ubicacion" class="ubicacion"><!--Ubicacion mapa Google-->>
+
+
+</section><!-- Fin ubicacion mapa Google-->
+
+<section class="container formulario" id="turno"> <!-- formulario de contacto-->
+	<div class=" row">
+		<div class="col-md-6">
+
+			<form class="formulario" id=" formulario" name="turno">
+
+			<div class="form-group">
+				<label>Nombre</label>
+				<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre" aria-describedby="basic-addon2">	
+			</div>
+
+			<div class="form-group">
+				<label>Apellido </label>
+				<input type="text" name="apellido" id="apellido" class="form-control" placeholder="Apellido" aria-describedby="basic-addon2">
+			</div>
+
+			<div class="form-group">
+				<label> DNI</label>
+				<input type="text" name="dni" id="dni" class="form-control" placeholder="DNI" aria-describedby="basic-addon2">
+			</div>
+
+			<div class="form-group">
+				<label> Seleccione que desea revisar: </label>
+				<select id="revisar" name="revisado" class="form-control" aria-describedby="basic-addon2">
+				<!--<option>Revisar</option>
+				<option value= "0">Frenos</option>
+				<option value="1">Alineacion</option>
+				<option value="2">Suspención</option>
+				<option value="3">Mecanica ligera</option>
+				<option value="4">Tren delantero y trasero</option>
+				<option value="5">Balanceo</option>
+			    <option value="6">Gomeria</option>
+			    <option value="7">Aire acondicionado</option>
+			    <option value="8">Verificación computalizada</option> -->
+				</select>
+
+
+			</div>
+
+			<div class="form-group">
+				<label> Seleccione la fecha: </label>
+				<input type="date" name="calendario" class="form-control" aria-describedby="basic-addon2">
+			</div>
+
+			<div class="form-group">
+				<label> Seleccione la fecha: </label>
+				<input type="time" name="calendario" class="form-control" aria-describedby="basic-addon2">
+
+			</div>
+
+			<input type="button" name=" turno" id="turno" value="Solicitar Turno" class="btn btn-default">
+
+	</form>
+
+	
+</section> <!--  fin formulario de contacto-->
+
+<div id="grande">
+	<input type="button" name="Salir" value="X" class="btn btn-default salirmod" id="salirmod">
+	<img id="img_grande" src="">
+	
+</div>
+
+<footer>
+	<img src="./img/icon-facebook.png">
+	<img src="./img/icon-instagram.png">
+</footer>
+
+
+
+
+<script type= "text/javascript" src= "js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src= "js/index.js"></script>
+
+</body>
+</html>
+
